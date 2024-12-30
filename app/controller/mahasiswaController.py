@@ -2,7 +2,6 @@ from flask import jsonify
 from app.model.mahasiswaModel import MahasiswaModel
 
 class MahasiswaController:
-
     @staticmethod
     def get_all():
         try:
